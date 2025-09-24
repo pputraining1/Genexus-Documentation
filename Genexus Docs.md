@@ -81,6 +81,7 @@ GenexusDocumentation =>App Name
 
     
 Berikut adalah Struktur folder Backend
+
 ![image](https://hackmd.io/_uploads/rykMSfbogg.png)
 ```
 GeneXusDocumentation => App name
