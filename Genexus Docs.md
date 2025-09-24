@@ -54,7 +54,8 @@ Folder Structure
 ---
 Dalam praktik terbaik GeneXus, meskipun platform ini tidak mewajibkan struktur folder khusus untuk front-end atau back-end, penerapan standarisasi internal tetap penting untuk memudahkan kolaborasi tim, mencakup penamaan objek, pengelompokan modul, serta pengelolaan sumber daya, sehingga meminimalkan konflik kode, mempercepat pengembangan, dan mendukung pemeliharaan serta dokumentasi proyek secara konsisten.
 
-Berikut adalah Struktur folder Frontend
+Berikut adalah Struktur folder Frontend 
+
 ![image](https://hackmd.io/_uploads/rJFvdM-jee.png)
 ```
 GenexusDocumentation =>App Name
