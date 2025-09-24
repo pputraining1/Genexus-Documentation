@@ -491,7 +491,9 @@ Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri 
 
 ![image](https://hackmd.io/_uploads/r1BBrbgoxl.png)
 11. Untuk memulai pembuatan api nya klik file yang ada di pojok kiri atas pilih new -> knowledge base
+
     ![image](https://hackmd.io/_uploads/HkP5SZgole.png)
+
 12. Maka akan muncul notif seperti ini, setelah itu tinggal beri nama saja, dan set location project dibagian Location untuk memudahkan management project yang akan dibuat kedepannya, lalu tinggal klik tombol Create.
 
    ![image](https://hackmd.io/_uploads/S1F2BWloxl.png)
