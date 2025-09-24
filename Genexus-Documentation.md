@@ -474,22 +474,30 @@ Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri 
 6. Kalau muncul seperti ini maka langsung install dan tunggu sampai installnya selesai, kalau semisal ada pop up error dan ada tombol ok langsung klik ok saja
 
 ![image](https://hackmd.io/_uploads/B17SG-eogx.png)
-7. Setelah selesai maka akan muncul seperti ini, lansung klik next aja
+ 
+7. Setelah selesai maka akan muncul seperti ini, lansung klik next aja!
 
-   ![image](https://hackmd.io/_uploads/BkvyNWlogl.png) !
+   ![image](https://hackmd.io/_uploads/BkvyNWlogl.png) 
+   
 8. Lanjut muncul seperti ini, langsung install saja dan tunggu sampai selesai
 
 ![image](https://hackmd.io/_uploads/rJNEEWeoee.png)
+
 9. Kalau Sudah selesai maka akan muncul seperti ini dan tinggal run saja 
 
 ![image](https://hackmd.io/_uploads/S1cyBbeolg.png)
+
 10. Maka akan lansung muncul seperti ini
+
 ![image](https://hackmd.io/_uploads/r1BBrbgoxl.png)
 11. Untuk memulai pembuatan api nya klik file yang ada di pojok kiri atas pilih new -> knowledge base
     ![image](https://hackmd.io/_uploads/HkP5SZgole.png)
 12. Maka akan muncul notif seperti ini, setelah itu tinggal beri nama saja, dan set location project dibagian Location untuk memudahkan management project yang akan dibuat kedepannya, lalu tinggal klik tombol Create.
+
    ![image](https://hackmd.io/_uploads/S1F2BWloxl.png)
+
 13. Setelah selesai maka akan muncul seperti ini, dan tinggal dibuat apinya
+
     ![image](https://hackmd.io/_uploads/S1p4LZeigx.png)
 
 
@@ -499,9 +507,7 @@ Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri 
 
 Pembuatan back-end di GeneXus dilakukan dengan memanfaatkan berbagai object seperti Transaction untuk membangun struktur data, Procedure untuk logika bisnis, Data Provider untuk mengolah data, serta API Object untuk expose layanan. Semua komponen ini saling terintegrasi sehingga back-end dapat terbentuk secara otomatis tanpa perlu menulis kode manual yang rumit.
 
-**1. 
-
-**2. Membuat Object Transaction**
+**1. Membuat Object Transaction**
 ---
 Untuk membuat transaction :
 1. Klik kanan pada folder Transaction
