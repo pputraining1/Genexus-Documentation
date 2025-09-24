@@ -228,6 +228,7 @@ Berwarna hijau, tidak bisa menambah cell/row, cell tidak bisa ditambahkan compon
 - FreeStyleGrid
 Berwarna biru, bisa menambahkan cell/row, cell bisa dimasukan component.
 Untuk menambahkan component pada FreeStyleGrid, seret aja dari toolbox di cell yang anda buat.
+
 ![image](https://hackmd.io/_uploads/ByC7e7Wixl.png)
 
 
