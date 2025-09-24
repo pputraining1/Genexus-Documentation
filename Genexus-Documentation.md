@@ -463,6 +463,7 @@ Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri 
 
 1. Kunjungi Link https://www.genexus.com/en/products/genexus/try-genexus
 2. Lalu isi form sesuai data kalian
+
     ![image](https://hackmd.io/_uploads/SkPDIgljxg.png)
 3. Setelah isi form tunggu sampai genexus mengirim email untuk aplikasinya (biasanya dibagian tab promosi untuk letaknya emailnya)
  ![image](https://hackmd.io/_uploads/HkXEOeligl.png)
@@ -471,12 +472,16 @@ Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri 
  ![image](https://hackmd.io/_uploads/Sydtwxgjlx.png)
 5. Setelah berhasil download maka langkah selanjutnya tinggal install saja
 6. Kalau muncul seperti ini maka langsung install dan tunggu sampai installnya selesai, kalau semisal ada pop up error dan ada tombol ok langsung klik ok saja
+
 ![image](https://hackmd.io/_uploads/B17SG-eogx.png)
 7. Setelah selesai maka akan muncul seperti ini, lansung klik next aja
+
    ![image](https://hackmd.io/_uploads/BkvyNWlogl.png) !
 8. Lanjut muncul seperti ini, langsung install saja dan tunggu sampai selesai
+
 ![image](https://hackmd.io/_uploads/rJNEEWeoee.png)
 9. Kalau Sudah selesai maka akan muncul seperti ini dan tinggal run saja 
+
 ![image](https://hackmd.io/_uploads/S1cyBbeolg.png)
 10. Maka akan lansung muncul seperti ini
 ![image](https://hackmd.io/_uploads/r1BBrbgoxl.png)
@@ -529,6 +534,7 @@ Setelah membuat procedure langkah selanjutnya tinggal membuat api dan totalnya c
 **6. Tinggal di build all atau run**
 ---
 Tahap terakhir tinggal di build all saja atau di run untuk caranya cukup mudah, tinggal tekan tab build lalu muncul pilihan dan build all atau cukup klik tombbol play hijau
+
 ![image](https://hackmd.io/_uploads/ByOPZ6Jhgx.png)
 
 apabila mengikuti tahap ini sampai selesai dan belum di run maka akan muncul tab Impact Analisys dan tombol Create dan cancel cukup tekan create aja karena disitu genexus akan mengkonfirmasi kita untuk menyuruh kita membuat database dari transaction yang sudah dibuat kalau semisal muncul seperti di bawah persis itu menandakan bahwa saat kita sudah run dan sudah buat database dan kita buat transaction baru maka genexus mengkonfirmasi bahwa di database ada reorganisasi atau ada pemabruan table baru atau ada perubahan attribute dari transaction
