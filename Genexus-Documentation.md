@@ -6,7 +6,7 @@ Introduction
 ---
 Pastikan anda sudah menginstall Genexus jika belum bisa lihat tutorial ini:
 - [GeneXus 18 hardware and software requirements](https://docs.genexus.com/en/wiki?30900,GeneXus+18+hardware+and+software+requirements)
-- [How to Install Genexus](https://hackmd.io/@9Jiq9WM9SIWJsYjajf9rHQ/rywchiAcex#Cara-Instal-Genexus)
+- [How to Install Genexus](https://hackmd.io/jCstSCjPRYux938HkqipYA?view#Cara-Instal-Genexus)
 - [Genexus Docs Search Engine](https://docs.genexus.com/en/hsearch)
 
 
@@ -49,13 +49,46 @@ Terminology
 | Domain         | Sebuah template tipe data atau definisi tipe data kustom yang bisa dipakai ulang di seluruh aplikasi. |
 | JSON Import    | Import JSON ke dalam GeneXus menjadi Structured Data Type (SDT) secara otomatis. |
 
+    
+    
+<br><br>
+# Cara Instal Genexus
 
-Folder Structure
----
+Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri dan caranya sebagai berikut : 
+
+1. Kunjungi Link https://www.genexus.com/en/products/genexus/try-genexus
+2. Lalu isi form sesuai data kalian
+    ![image](https://hackmd.io/_uploads/SkPDIgljxg.png)
+3. Setelah isi form tunggu sampai genexus mengirim email untuk aplikasinya (biasanya dibagian tab promosi untuk letaknya emailnya)
+ ![image](https://hackmd.io/_uploads/HkXEOeligl.png)
+
+4. Setelah Dapat Emailnya Seperti ini klik link yang Trial of Genexus 18, setelah itu akan diarahkan ke halaman download dan genexus akan ke auto download sendiri
+ ![image](https://hackmd.io/_uploads/Sydtwxgjlx.png)
+5. Setelah berhasil download maka langkah selanjutnya tinggal install saja
+6. Kalau muncul seperti ini maka langsung install dan tunggu sampai installnya selesai, kalau semisal ada pop up error dan ada tombol ok langsung klik ok saja
+![image](https://hackmd.io/_uploads/B17SG-eogx.png)
+7. Setelah selesai maka akan muncul seperti ini, lansung klik next aja
+   ![image](https://hackmd.io/_uploads/BkvyNWlogl.png) !
+8. Lanjut muncul seperti ini, langsung install saja dan tunggu sampai selesai
+![image](https://hackmd.io/_uploads/rJNEEWeoee.png)
+9. Kalau Sudah selesai maka akan muncul seperti ini dan tinggal run saja 
+![image](https://hackmd.io/_uploads/S1cyBbeolg.png)
+10. Maka akan lansung muncul seperti ini
+![image](https://hackmd.io/_uploads/r1BBrbgoxl.png)
+11. Untuk memulai pembuatan api nya klik file yang ada di pojok kiri atas pilih new -> knowledge base
+    ![image](https://hackmd.io/_uploads/HkP5SZgole.png)
+12. Maka akan muncul notif seperti ini, setelah itu tinggal beri nama saja, dan set location project dibagian Location untuk memudahkan management project yang akan dibuat kedepannya, lalu tinggal klik tombol Create.
+   ![image](https://hackmd.io/_uploads/S1F2BWloxl.png)
+13. Setelah selesai maka akan muncul seperti ini, dan tinggal dibuat apinya
+    ![image](https://hackmd.io/_uploads/S1p4LZeigx.png)    
+    
+
+<br><br>
+# Folder Structure
+
 Dalam praktik terbaik GeneXus, meskipun platform ini tidak mewajibkan struktur folder khusus untuk front-end atau back-end, penerapan standarisasi internal tetap penting untuk memudahkan kolaborasi tim, mencakup penamaan objek, pengelompokan modul, serta pengelolaan sumber daya, sehingga meminimalkan konflik kode, mempercepat pengembangan, dan mendukung pemeliharaan serta dokumentasi proyek secara konsisten.
 
-Berikut adalah Struktur folder Frontend 
-
+Berikut adalah Struktur folder Frontend
 ![image](https://hackmd.io/_uploads/rJFvdM-jee.png)
 ```
 GenexusDocumentation =>App Name
@@ -81,7 +114,6 @@ GenexusDocumentation =>App Name
 
     
 Berikut adalah Struktur folder Backend
-
 ![image](https://hackmd.io/_uploads/rykMSfbogg.png)
 ```
 GeneXusDocumentation => App name
@@ -94,9 +126,9 @@ GeneXusDocumentation => App name
     ├── Procedure => Folder kumpulan logika atau proses bisnis
     └── API => Folder kumpulan object untuk expose service (REST API)
 ```
-    
-Component User Interface (UI)
----
+ <br><br>   
+# Component User Interface (UI)
+
 Untuk Component UI pada Genexus secara default berada di pojok kanan yang bernama **Toolbox**
     
 ![image](https://hackmd.io/_uploads/H1MUazWoll.png)
@@ -171,6 +203,7 @@ Untuk Component UI pada Genexus secara default berada di pojok kanan yang bernam
 
 Untuk comopnent yang tidak tersedia di toolbox, anda bisa mencarinya juga di [Genexus Marketplace.](https://marketplace.genexus.com/home.aspx?,en)
 
+ <br><br>      
 # Tutorial
     
 ### Reusable Component
@@ -228,7 +261,6 @@ Berwarna hijau, tidak bisa menambah cell/row, cell tidak bisa ditambahkan compon
 - FreeStyleGrid
 Berwarna biru, bisa menambahkan cell/row, cell bisa dimasukan component.
 Untuk menambahkan component pada FreeStyleGrid, seret aja dari toolbox di cell yang anda buat.
-
 ![image](https://hackmd.io/_uploads/ByC7e7Wixl.png)
 
 
@@ -455,59 +487,13 @@ API Object digunakan untuk menyediakan layanan aplikasi melalui protokol HTTP. D
 * Tab Variable
   Sama seperti fungsi tab variable yang ada di transaction, Data Provider, Procedure untuk mengelola variable yang akan digunakan oleh object tersebut
 
-            
-<br/><br/><br/>
-# Cara Instal Genexus
-
-Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri dan caranya sebagai berikut : 
-
-1. Kunjungi Link https://www.genexus.com/en/products/genexus/try-genexus
-2. Lalu isi form sesuai data kalian
-
-    ![image](https://hackmd.io/_uploads/SkPDIgljxg.png)
-3. Setelah isi form tunggu sampai genexus mengirim email untuk aplikasinya (biasanya dibagian tab promosi untuk letaknya emailnya)
- ![image](https://hackmd.io/_uploads/HkXEOeligl.png)
-
-4. Setelah Dapat Emailnya Seperti ini klik link yang Trial of Genexus 18, setelah itu akan diarahkan ke halaman download dan genexus akan ke auto download sendiri
- ![image](https://hackmd.io/_uploads/Sydtwxgjlx.png)
-5. Setelah berhasil download maka langkah selanjutnya tinggal install saja
-6. Kalau muncul seperti ini maka langsung install dan tunggu sampai installnya selesai, kalau semisal ada pop up error dan ada tombol ok langsung klik ok saja
-
-![image](https://hackmd.io/_uploads/B17SG-eogx.png)
- 
-7. Setelah selesai maka akan muncul seperti ini, lansung klik next aja!
-
-   ![image](https://hackmd.io/_uploads/BkvyNWlogl.png) 
-   
-8. Lanjut muncul seperti ini, langsung install saja dan tunggu sampai selesai
-
-![image](https://hackmd.io/_uploads/rJNEEWeoee.png)
-
-9. Kalau Sudah selesai maka akan muncul seperti ini dan tinggal run saja 
-
-![image](https://hackmd.io/_uploads/S1cyBbeolg.png)
-
-10. Maka akan lansung muncul seperti ini
-
-![image](https://hackmd.io/_uploads/r1BBrbgoxl.png)
-11. Untuk memulai pembuatan api nya klik file yang ada di pojok kiri atas pilih new -> knowledge base
-
-    ![image](https://hackmd.io/_uploads/HkP5SZgole.png)
-
-12. Maka akan muncul notif seperti ini, setelah itu tinggal beri nama saja, dan set location project dibagian Location untuk memudahkan management project yang akan dibuat kedepannya, lalu tinggal klik tombol Create.
-
-   ![image](https://hackmd.io/_uploads/S1F2BWloxl.png)
-
-13. Setelah selesai maka akan muncul seperti ini, dan tinggal dibuat apinya
-
-    ![image](https://hackmd.io/_uploads/S1p4LZeigx.png)
-
 
 <br/><br/><br/>
 
 # Pembuatan Back End Booking di Genexus
 
 Pembuatan back-end di GeneXus dilakukan dengan memanfaatkan berbagai object seperti Transaction untuk membangun struktur data, Procedure untuk logika bisnis, Data Provider untuk mengolah data, serta API Object untuk expose layanan. Semua komponen ini saling terintegrasi sehingga back-end dapat terbentuk secara otomatis tanpa perlu menulis kode manual yang rumit.
+
 
 **1. Membuat Object Transaction**
 ---
@@ -542,7 +528,6 @@ Setelah membuat procedure langkah selanjutnya tinggal membuat api dan totalnya c
 **6. Tinggal di build all atau run**
 ---
 Tahap terakhir tinggal di build all saja atau di run untuk caranya cukup mudah, tinggal tekan tab build lalu muncul pilihan dan build all atau cukup klik tombbol play hijau
-
 ![image](https://hackmd.io/_uploads/ByOPZ6Jhgx.png)
 
 apabila mengikuti tahap ini sampai selesai dan belum di run maka akan muncul tab Impact Analisys dan tombol Create dan cancel cukup tekan create aja karena disitu genexus akan mengkonfirmasi kita untuk menyuruh kita membuat database dari transaction yang sudah dibuat kalau semisal muncul seperti di bawah persis itu menandakan bahwa saat kita sudah run dan sudah buat database dan kita buat transaction baru maka genexus mengkonfirmasi bahwa di database ada reorganisasi atau ada pemabruan table baru atau ada perubahan attribute dari transaction
