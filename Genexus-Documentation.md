@@ -492,6 +492,7 @@ API Object digunakan untuk menyediakan layanan aplikasi melalui protokol HTTP. D
 
 ![image](https://hackmd.io/_uploads/BJbML4rjex.png)
 
+
 * Tab Service Source 
   Berfungsi untuk penulisan api 
   
@@ -521,7 +522,7 @@ API Object digunakan untuk menyediakan layanan aplikasi melalui protokol HTTP. D
 
 * Tab Variable
   Sama seperti fungsi tab variable yang ada di transaction, Data Provider, Procedure untuk mengelola variable yang akan digunakan oleh object tersebut
-
+###### tags: `Genexus` `Training` `Back-End`
 
 <br/><br/><br/>
 
