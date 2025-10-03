@@ -1,6 +1,6 @@
 # Getting Started
 
-Dokumentasi ini menjelaskan dalam scope pada platform GeneXus 18, yang dokumentasi ini berfokus pada sisi front-end  seperti pengelolaan tampilan, interaksi, serta pengalaman pengguna.
+Dokumentasi ini menjelaskan dalam scope pada platform GeneXus 18, yang dokumentasi ini berfokus pada sisi front-end  seperti pengelolaan tampilan, interaksi, serta pengalaman pengguna dan sisi Backend seperti memanagement data dan memberikan service untuk Frontend.
 
 Introduction
 ---
