@@ -58,28 +58,48 @@ Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri 
 
 1. Kunjungi Link https://www.genexus.com/en/products/genexus/try-genexus
 2. Lalu isi form sesuai data kalian
-    ![image](https://hackmd.io/_uploads/SkPDIgljxg.png)
-3. Setelah isi form tunggu sampai genexus mengirim email untuk aplikasinya (biasanya dibagian tab promosi untuk letaknya emailnya)
+
+   ![image](https://hackmd.io/_uploads/SkPDIgljxg.png)
+   
+4. Setelah isi form tunggu sampai genexus mengirim email untuk aplikasinya (biasanya dibagian tab promosi untuk letaknya emailnya)
+ 
  ![image](https://hackmd.io/_uploads/HkXEOeligl.png)
 
-4. Setelah Dapat Emailnya Seperti ini klik link yang Trial of Genexus 18, setelah itu akan diarahkan ke halaman download dan genexus akan ke auto download sendiri
+5. Setelah Dapat Emailnya Seperti ini klik link yang Trial of Genexus 18, setelah itu akan diarahkan ke halaman download dan genexus akan ke auto download sendiri
+ 
  ![image](https://hackmd.io/_uploads/Sydtwxgjlx.png)
-5. Setelah berhasil download maka langkah selanjutnya tinggal install saja
-6. Kalau muncul seperti ini maka langsung install dan tunggu sampai installnya selesai, kalau semisal ada pop up error dan ada tombol ok langsung klik ok saja
+ 
+6. Setelah berhasil download maka langkah selanjutnya tinggal install saja
+7. Kalau muncul seperti ini maka langsung install dan tunggu sampai installnya selesai, kalau semisal ada pop up error dan ada tombol ok langsung klik ok saja
+
 ![image](https://hackmd.io/_uploads/B17SG-eogx.png)
-7. Setelah selesai maka akan muncul seperti ini, lansung klik next aja
-   ![image](https://hackmd.io/_uploads/BkvyNWlogl.png) !
-8. Lanjut muncul seperti ini, langsung install saja dan tunggu sampai selesai
+
+8. Setelah selesai maka akan muncul seperti ini, lansung klik next aja
+
+   ![image](https://hackmd.io/_uploads/BkvyNWlogl.png)
+   
+10. Lanjut muncul seperti ini, langsung install saja dan tunggu sampai selesai
+
 ![image](https://hackmd.io/_uploads/rJNEEWeoee.png)
-9. Kalau Sudah selesai maka akan muncul seperti ini dan tinggal run saja 
+
+12. Kalau Sudah selesai maka akan muncul seperti ini dan tinggal run saja 
+
 ![image](https://hackmd.io/_uploads/S1cyBbeolg.png)
-10. Maka akan lansung muncul seperti ini
+
+13. Maka akan lansung muncul seperti ini
+
 ![image](https://hackmd.io/_uploads/r1BBrbgoxl.png)
-11. Untuk memulai pembuatan api nya klik file yang ada di pojok kiri atas pilih new -> knowledge base
+
+14. Untuk memulai pembuatan api nya klik file yang ada di pojok kiri atas pilih new -> knowledge base
+
     ![image](https://hackmd.io/_uploads/HkP5SZgole.png)
-12. Maka akan muncul notif seperti ini, setelah itu tinggal beri nama saja, dan set location project dibagian Location untuk memudahkan management project yang akan dibuat kedepannya, lalu tinggal klik tombol Create.
-   ![image](https://hackmd.io/_uploads/S1F2BWloxl.png)
-13. Setelah selesai maka akan muncul seperti ini, dan tinggal dibuat apinya
+    
+16. Maka akan muncul notif seperti ini, setelah itu tinggal beri nama saja, dan set location project dibagian Location untuk memudahkan management project yang akan dibuat kedepannya, lalu tinggal klik tombol Create.
+
+![image](https://hackmd.io/_uploads/S1F2BWloxl.png)
+
+18. Setelah selesai maka akan muncul seperti ini, dan tinggal dibuat apinya
+
     ![image](https://hackmd.io/_uploads/S1p4LZeigx.png)    
     
 
@@ -89,7 +109,9 @@ Untuk memulai pembuatan api di genexus harus punya aplikasi genexus itu sendiri 
 Dalam praktik terbaik GeneXus, meskipun platform ini tidak mewajibkan struktur folder khusus untuk front-end atau back-end, penerapan standarisasi internal tetap penting untuk memudahkan kolaborasi tim, mencakup penamaan objek, pengelompokan modul, serta pengelolaan sumber daya, sehingga meminimalkan konflik kode, mempercepat pengembangan, dan mendukung pemeliharaan serta dokumentasi proyek secara konsisten.
 
 Berikut adalah Struktur folder Frontend
+
 ![image](https://hackmd.io/_uploads/rJFvdM-jee.png)
+
 ```
 GenexusDocumentation =>App Name
 └── Root Module
@@ -114,7 +136,9 @@ GenexusDocumentation =>App Name
 
     
 Berikut adalah Struktur folder Backend
+
 ![image](https://hackmd.io/_uploads/rykMSfbogg.png)
+
 ```
 GeneXusDocumentation => App name
 └── Root Module
@@ -249,6 +273,7 @@ Example :
 
 ### Build Pagination
 Untuk membuat pagination pada Grid, anda hanya perlu mengatur **Paging** dan **Rows** di properties Grid seperti ini:
+
 ![image](https://hackmd.io/_uploads/SkHNkXboxe.png)
 
 ### Adding Component to Grid Cell
@@ -256,11 +281,13 @@ Grid adalah sebuah component untuk melooping sebuah data, Pada Genexus, ada 2 ti
 
 - Grid
 Berwarna hijau, tidak bisa menambah cell/row, cell tidak bisa ditambahkan component seperti button, hyperlink, tabel dll.
+
 ![image](https://hackmd.io/_uploads/B1RJxXbsxl.png)
 
 - FreeStyleGrid
 Berwarna biru, bisa menambahkan cell/row, cell bisa dimasukan component.
 Untuk menambahkan component pada FreeStyleGrid, seret aja dari toolbox di cell yang anda buat.
+
 ![image](https://hackmd.io/_uploads/ByC7e7Wixl.png)
 
 
@@ -273,7 +300,9 @@ Genexus menyediakan fitur import JSON yang secara otomatis membuat SDT berdasark
 ![image](https://hackmd.io/_uploads/BykosPUjlg.png)
 
 Setelah terbuka jendela Json Import, anda bisa import json file dari file path/url atau text    
+
 ![image](https://hackmd.io/_uploads/Hy9hjvIige.png)
+
 Jika klik oke, maka otomatis terbuat SDT
     
 ![image](https://hackmd.io/_uploads/ryiasPUjxx.png)
@@ -327,7 +356,9 @@ Untuk membuat variabel yang akan digunakan di Rules, Event, Web Layout.
 ### SDT (Structured Data Type)
 ---
 SDT adalah object yang berfungsi sebagai model data custom. Object ini memungkinkan kita mendefinisikan struktur data kompleks yang fleksibel dan tidak selalu terikat pada tabel database.
+
 ![image](https://hackmd.io/_uploads/HJaxvXQjxg.png)
+
 * Tab Structure
 Berisi Attribute Transaction
     *  Type -> Jenis Attribute
@@ -336,6 +367,7 @@ Berisi Attribute Transaction
 ### Data Provider
 ---
 Data Provider adalah object yang digunakan untuk mengambil, menyusun, dan mengembalikan data sesuai kebutuhan. Biasanya dipakai untuk menampilkan data yang sudah diformat atau dikombinasikan dari berbagai sumber.
+
 ![image](https://hackmd.io/_uploads/SJoq9WEsgl.png)
 
 * Tab Source 
@@ -380,6 +412,7 @@ Data Provider adalah object yang digunakan untuk mengambil, menyusun, dan mengem
 ### Procedure
 ---
 Procedure adalah object yang berisi logika atau proses yang dijalankan di server. Object ini dipakai untuk menjalankan perhitungan, validasi, atau proses bisnis tertentu yang tidak otomatis ditangani oleh Transaction.
+
 ![image](https://hackmd.io/_uploads/BJhoDW4ogl.png)
 
 * Tab Source
@@ -400,7 +433,8 @@ Procedure adalah object yang berisi logika atau proses yang dijalankan di server
   **Insert Or Update Transaction**
   
     >   Pastikan di transaction bagian kanan layar di properties cari Business Component itu dibuat True, Kalau Semisal Properties nya kosong cukup tekan tab Transaction tersebut maka akan muncul sendiri
-    ![image](https://hackmd.io/_uploads/S1hSwvNsee.png)
+    
+	![image](https://hackmd.io/_uploads/S1hSwvNsee.png)
 
     >   Buat Variabel yang bertype dengan nama Transaction, buat variabel yang typenya SDT untuk menerima data 
     
@@ -455,6 +489,7 @@ Procedure adalah object yang berisi logika atau proses yang dijalankan di server
 ### API Object
 ---
 API Object digunakan untuk menyediakan layanan aplikasi melalui protokol HTTP. Dengan object ini, data atau logika yang ada di aplikasi bisa diekspos menjadi REST API agar dapat diakses oleh sistem atau aplikasi lain.
+
 ![image](https://hackmd.io/_uploads/BJbML4rjex.png)
 
 * Tab Service Source 
@@ -528,9 +563,11 @@ Setelah membuat procedure langkah selanjutnya tinggal membuat api dan totalnya c
 **6. Tinggal di build all atau run**
 ---
 Tahap terakhir tinggal di build all saja atau di run untuk caranya cukup mudah, tinggal tekan tab build lalu muncul pilihan dan build all atau cukup klik tombbol play hijau
+
 ![image](https://hackmd.io/_uploads/ByOPZ6Jhgx.png)
 
 apabila mengikuti tahap ini sampai selesai dan belum di run maka akan muncul tab Impact Analisys dan tombol Create dan cancel cukup tekan create aja karena disitu genexus akan mengkonfirmasi kita untuk menyuruh kita membuat database dari transaction yang sudah dibuat kalau semisal muncul seperti di bawah persis itu menandakan bahwa saat kita sudah run dan sudah buat database dan kita buat transaction baru maka genexus mengkonfirmasi bahwa di database ada reorganisasi atau ada pemabruan table baru atau ada perubahan attribute dari transaction
+
 ![image](https://hackmd.io/_uploads/BJqeQpyhgg.png)
 
 **7. Selesai**
