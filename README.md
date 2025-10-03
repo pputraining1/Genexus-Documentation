@@ -14,13 +14,15 @@ Dokumentasi ini dibuat untuk platform **Genexus 18**, mencakup panduan lengkap d
 ### **Getting Started**
 
 Bagian ini adalah panduan awal untuk memulai dengan Genexus 18. Anda akan memahami cakupan dokumentasi ini, yang berfokus pada pengembangan aplikasi secara **full-stack**. Kami akan membahas cara mengelola tampilan, interaksi, dan pengalaman pengguna di sisi **front-end**, serta cara memanajemen data dan menyediakan service yang dibutuhkan di sisi **back-end**.
+- [GeneXus 18 hardware and software requirements](https://docs.genexus.com/en/wiki?30900,GeneXus+18+hardware+and+software+requirements)
+- [Genexus Docs Search Engine](https://docs.genexus.com/en/hsearch)
 
 ---
 
 ### **Cara Instal Genexus**
 
 Panduan langkah demi langkah untuk melakukan instalasi Genexus di sistem Anda. Ikuti petunjuk ini untuk memastikan semua komponen terpasang dengan benar.
-
+- [How to Install Genexus](https://hackmd.io/jCstSCjPRYux938HkqipYA?view#Cara-Instal-Genexus)
 ---
 
 ### **Folder Structure**
